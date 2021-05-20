@@ -3,7 +3,7 @@ function calculerAutorisation(){
     var age = document.getElementById("age").value;   
 
 
-    if(!Number.isInteger(parseInt(age))){
+    if(!Number.isInteger(parseInt(age)) && age != ""){
         alert("Veuillez saisir un nombre !")
         return;
     }
